@@ -2,10 +2,12 @@
 Madis Puu, Rando Roosik
 # Task1 - done 
 ```
-Task 2
+Task 2 - Business understanding
 ```
+mis saab kui ma siia kirjutan
 ```
-Task3(ns infoks)
+Task3 - Data understanding
+(ns infoks)
 Descriptions for the column names based on the data provided:
 
 id: Unique identifier for each record.
