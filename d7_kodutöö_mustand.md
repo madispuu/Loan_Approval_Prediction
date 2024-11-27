@@ -7,8 +7,17 @@ Task 2 - Business understanding
 
 ## Identifying your business goals
 ### Background
-### Business goals
+Panganduses on laenude väljastamine eraisikutele oluline protsess, mis mõjutab nii pankasi kui ka laenu taotlejaid. Finantsasutuste eesmärk on minimeerida maksejõuetuse riske,
+maksimeerida kasumit ning tagada klientide rahulolu. Siiski on laenuvõtjate sobivuse hindamine tihti töömahukas manuaalne protsess või tugineb aegunud meetoditele.
+Me soovime parandada otsustusprotsessi tõhusust ja täpsust, kasutades ennustusalgoritme laenutaotluste hindamise automatiseerimiseks. Suur osa manuaalsest tööst on võimalik ära jätta,
+kui enne leida automaatselt need inimesed, kes väga suure tõenäosusega ei ole kvalifitseeritud laenu saama. See muudaks laenude andmist odavamaks pankade jaoks ning kiirendaks laenu saamis protsessi klientide jaoks.
+### Business goals 
+-Ennustada väga suure täpsusega isikud, kes ei ole kvalifitseeritud laenu saama, et nende avaldust ei peaks käsitsi vaatama.
+-Parandada kliendikogemust, pakkudes kiiremaid otsuseid laenutaotlustele.
+-Minimeerida finantsriske, tuvastades tõhusamalt kõrge riskiga taotlejad.
 ### Business success criteria
+- Otsus, et klient ei saa laenu, kuigi ta peaks(vale-negatiivne) peab olema väga väike %, sest iga klient, kes oleks pidanud saama laenu, aga ei saanud, tähendab et pank kaotas võimaliku tulu allika.
+- Samas peab olema negatiivseid vastuseid võimalikult palju, et maksimaalses koguses manuaalset tööd
 
 ## Assessing your situation
 ### Inventory of resources
