@@ -10,13 +10,13 @@ Task 2 - Business understanding
 ### Business success criteria
 
 ## Assessing your situation
-###Inventory of resources
-###Requirements, assumptions, and constraints
-###Risks and contingencies
-###Terminology
-###Costs and benefits
+### Inventory of resources
+### Requirements, assumptions, and constraints
+### Risks and contingencies
+### Terminology
+### Costs and benefits
 
-##Defining your data-mining goals
+## Defining your data-mining goals
 ### Data-mining goals
 ### Data-mining success criteria
 
