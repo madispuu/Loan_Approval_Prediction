@@ -4,7 +4,7 @@ Madis Puu, Rando Roosik
 ```
 Task 2 - Business understanding
 ```
-```
+
 ## Identifying your business goals
 ### Background
 ### Business goals
@@ -20,7 +20,7 @@ Task 2 - Business understanding
 ## Defining your data-mining goals
 ### Data-mining goals
 ### Data-mining success criteria
-```
+
 
 
 ```
