@@ -21,7 +21,10 @@ kui enne leida automaatselt need inimesed, kes väga suure tõenäosusega ei ole
 
 ## Assessing your situation
 ### Inventory of resources
+Me teeme projekti kahekesi, meil mõlemal on baas teadmised andmeteadusest. Lisaks on Kaggleis teiste inimeste kommentaarid ja soovitused. Kaggleist saame ka vajalikud andmed: test.cvs ja train.cvs,
+lisaks on võimalik ka privaattesti läbida. Projekti läbiviimiseks saame kasutada kooli sülearvuteid ning oma isiklikke lauaarvuteid.
 ### Requirements, assumptions, and constraints
+Projekt peab olema valmis 13 detsember. Lisaks peab ka projektis olema tehtud poster, et seda saaks tutvutada teistele.
 ### Risks and contingencies
 ### Terminology
 ### Costs and benefits
