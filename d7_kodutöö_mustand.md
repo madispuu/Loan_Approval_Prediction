@@ -7,7 +7,8 @@ Task 2 - Business understanding
 mis saab kui ma siia kirjutan
 ```
 Task3 - Data understanding
-(ns infoks)
+(ns infoks)(keegi oli postitanud kaggelisse)
+
 Descriptions for the column names based on the data provided:
 
 id: Unique identifier for each record.
