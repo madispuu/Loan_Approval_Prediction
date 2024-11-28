@@ -2,7 +2,7 @@
 Madis Puu, Rando Roosik
 # Task1 - done 
 ```
-Task 2 - Business understanding
+Task 2 - Business understanding (vist tehtud)
 ```
 
 ## Identifying your business goals
