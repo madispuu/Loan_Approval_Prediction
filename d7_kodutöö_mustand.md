@@ -6,60 +6,36 @@ Task 2 - Business understanding
 ```
 
 ## Identifying your business goals
-### Background
+Background
 Laenude väljastamine eraisikutele on finantssektori oluline ja keeruline protsess, mis mõjutab nii pankade kui ka laenu taotlejate huve. Pankade eesmärgiks on alati tagada tasuvus, minimeerida finantsriske ja pakkuda kõrgetasemelist teenindust, samal ajal püüdes rahuldada klientide vajadusi ja soove. Siiski, laenutaotluste hindamine on tihti manuaalne ja ajamahukas protsess, mis võib tugineda vananenud või ebaefektiivsetele meetoditele. Laenutaotluste sobivuse hindamine eeldab põhjalikku analüüsi laenutaotleja finantsseisundi, makseajalugu ja usaldusväärsuse kohta. See kõik võib olla üsna töömahukas ja ebatäpne, kui seda tehakse käsitsi või tuginedes ainult traditsioonilistele hindamismeetoditele. Seetõttu on vajalik täiustada otsustusprotsessi täpsust ja kiirust, et luua efektiivsemad lahendused laenuhindamiseks.
-
-Meie eesmärk on rakendada ennustusalgoritme, et automatiseerida laenutaotluste hindamine ja optimeerida laenupakkumiste tegemist. Kasutades masinõppe meetodeid, suudame ennustada laenutaotleja sobivuse tõenäosust laenu saamiseks, seades sellega aluse täpsematele ja kiirematele otsustele. Täiendavaks eesmärgiks on vähendada käsitsi tehtavat tööd, mis on seotud taotlejate hindamisega, ning kiirendada laenuotsuste tegemise protsessi. See muudab laenu väljastamise odavamaks pankadele ning aitab samas kiirendada kliendi jaoks laenu saamise aega.
-### Business goals 
+Business goals
 Projektis püstitatud eesmärk on automatiseerida laenutaotluste hindamine, et ennustada väga täpselt need isikud, kes ei ole kvalifitseeritud laenu saama. Selline lähenemine võimaldab vähendada vajadust käsitsi hindamise järele ning muudab laenuväljastamise protsessi sujuvamaks ja kiiremaks. Lisaks sellele on oluline parandada kliendikogemust, pakkudes kiiremaid ja täpsemaid laenuotsuseid. Pank saab ennustada laenutaotlejate sobivuse ning pakkuda neile paremaid lahendusi.
-
 Samuti tuleb keskenduda finantsriskide minimeerimisele, et tuvastada tõhusamalt need taotlejad, kellel on suurem tõenäosus maksejõuetuseni jõuda. Kõrgema riskiga laenuvõtjate varajane tuvastamine aitab pankadel vältida suuremaid kahjusid, võimaldades neil vältida laenude väljastamist isikutele, kellel on madal tagasimaksmise usaldusväärsus.
-### Business success criteria
+Business success criteria
 Projekt on edukas, kui suudame ennustada laenu sobivuse väga kõrge täpsusega. Eriti oluline on see, et vale-negatiivsete juhtumite arv oleks väga madal. Vale-negatiivne tähendab seda, et klient, kellel tegelikult on õigus laenu saada, ei saa seda süsteemi vea tõttu. Kui vale-negatiivsete juhtumite protsent on liiga suur, võib see põhjustada tulu kaotuse, kuna pank jääb ilma võimalikest laenutuludest.
+Samas on oluline, et algoritm ennustaks piisavalt palju päris-negatiivseid vastuseid, sest seda suurem on siis ka säästetud aeg.
 
-Samas on oluline, et vale-positiivsete juhtumite arv oleks võimalikult madal. Vale-positiivne tähendab seda, et laenu andmist ei tuleks teha, kuid süsteem annab positiivse otsuse. Kõrge vale-positiivsete määr tähendab seda, et pangal tuleb käsitsi läbivaatamise jaoks kulutada palju aega ja ressursse.
-## Assessing your situation
-### Inventory of resources
-Meie projekti tiim koosneb kahest inimesest, kellel on baasteadmised andmeteadusest ja masinõppest. Projektitööd arendame koostöös, kasutades Kaggle'i andmestikke (test.csv, train.csv), kus on võimalik õppida teiste teadlaste lahendustest ja saada tagasisidet. Kaggle pakub ka ligipääsu erinevatele testidele, mis aitavad meie mudelit hinnata ja täiustada.
 
-Meil on olemas vajalikud arvutivahendid – kooli sülearvutid ja isiklikud lauaarvutid – et viia läbi vajalikud analüüsid ja töötada läbi masinõppe algoritme. Samuti saame kasutada Kaggle'i pakutavat tasuta infrastruktuuri, et katsetada erinevaid mudeleid.
-### Requirements, assumptions, and constraints
-Projekti tähtaeg on 13. detsember, mis seab ajapiirangu. Seetõttu peame tagama, et meie mudel on piisavalt täpne ja toimiv enne tähtaega. Lisaks on oluline, et projekt sisaldaks ka visuaalse esitlusmaterjali, nagu poster, mis tutvustab meie töö tulemusi ja protsessi teistele huvilistele.
-### Risks and contingencies
-Projektiga kaasnevad mõned riskid, mis on seotud andmete kvaliteedi ja modelleerimise täpsusega. Masinõppe mudelid ei pruugi olla täiuslikud ning võib tekkida vajadus täiendavate andmete või algoritmide järele. Täiendavad riski faktorid võivad hõlmata ka ajapiiranguid ja tööjaotuse efektiivsust, kuna tegeleme projektiga vaid kahekesi.
-### Terminology
+Assessing your situation
+Inventory of resources
+Meie projekti tiim koosneb kahest inimesest, kellel on baasteadmised andmeteadusest ja masinõppest. Projektitööd arendame koostöös, kasutades Kaggle'i andmestikke (test.csv, train.csv), kus on võimalik õppida teiste probleemidest. Meil on olemas vajalikud arvutivahendid – kooli sülearvutid ja isiklikud lauaarvutid – et viia läbi vajalikud analüüsid ja töötada läbi masinõppe algoritme.
+Requirements, assumptions, and constraints
+Projekti tähtaeg on 13. detsember, mis seab ajapiirangu. Seetõttu peame tagama, et meie mudel on piisavalt täpne ja toimiv enne tähtaega. Lisaks on oluline, et projekt sisaldaks ka postrit, mis tutvustab meie töö tulemusi ja protsessi teistele huvilistele.
+Risks and contingencies
+Projektiga kaasnevad mõned riskid, mis on seotud andmete kvaliteedi ja modelleerimise täpsusega. Masinõppe mudelid ei pruugi olla täiuslikud ning võib tekkida vajadus täiendavate andmete või algoritmide järele. Täiendavad riski faktorid võivad hõlmata ka ajapiiranguid ja tööjaotuse efektiivsust, kuna tegeleme projektiga kahekesi.
+Terminology
 Mõisted, mida kasutame oma projektis:
+•	Vale-negatiivne: Laenu taotleja, kes oleks pidanud laenu saama, kuid ei saanud süsteemi vea tõttu.
+•	Vale-positiivne: Laenu taotleja, kellele ei oleks pidanud laenu andma, kuid süsteem annab positiivse otsuse.
+•	Masinõpe: Meetod, kus arvuti õpib andmete põhjal tegemas ennustusi või otsuseid, ilma et oleks vajadust iga samm ette näha.
+Costs and benefits
+Projekti elluviimine ei too endaga kaasa suuri kulutusi. Me kasutame olemasolevaid tööriistu, näiteks Kaggle’i platvormi tasuta versioone ja kooli sülearvuteid. See tähendab, et projekti põhikulud on seotud ainult aja ja ressursi panusega.
+Defining your data-mining goals
+Data-mining goals
+Data-mining eesmärkideks on kasutada masinõppe ja statistiliste meetodite abil suurte andmekogumite analüüsimist, et tuvastada mustrid ja suundumused, mis aitavad meil automaatselt hinnata laenutaotlejate sobivust laenu saamiseks. Peamine eesmärk on arendada täpsed ennustusmudelid, mis suudavad ennustada laenutaotlejate maksejõuetuse riski ja sellega aidata määrata, milliseid taotlusi tuleks käsitleda ja milliseid mitte
+Data-mining success criteria
+Täpsus (Accuracy): Mudel peab olema piisavalt täpne, et vähendada vale-negatiivide ja vale-positiivide arvu. Vale-negatiivide arv peab olema minimaalne, kuna see tähendab, et laenu taotleja, kellel on õigus laenu saada, jääb selleks ilma. Vale-positiivide arv peab olema samuti kontrollitud, et mitte põhjustada liigset töökoormust ja manuaalset hindamist, mis on seotud valede otsustega. 
 
-- Vale-negatiivne: Laenu taotleja, kes oleks pidanud laenu saama, kuid ei saanud süsteemi vea tõttu.
-- Vale-positiivne: Laenu taotleja, kellele ei oleks pidanud laenu andma, kuid süsteem annab positiivse otsuse.
-- Masinõpe: Meetod, kus arvuti õpib andmete põhjal tegemas ennustusi või otsuseid, ilma et oleks vajadust iga samm ette näha.
-### Costs and benefits
-Kuna projekt ei nõua suuri rahalisi investeeringuid, saavad meie tiim töödeks vajalikke ressursse väga madalate kuludega ning projekti elluviimine ei too endaga kaasa suuri kulutusi. Me kasutame olemasolevaid tööriistu, näiteks Kaggle’i platvormi tasuta versioone ja kooli sülearvuteid. See tähendab, et projekti põhikulud on seotud ainult aja ja ressursi panusega.
-## Defining your data-mining goals
-### Data-mining goals
-Data-mining eesmärkideks on kasutada masinõppe ja statistiliste meetodite abil suurte andmekogumite analüüsimist, et tuvastada mustrid ja suundumused, mis aitavad meil automaatselt hinnata laenutaotlejate sobivust laenu saamiseks. Peamine eesmärk on arendada täpsed ennustusmudelid, mis suudavad ennustada laenutaotlejate maksejõuetuse riski ja sellega aidata määrata, milliseid taotlusi tuleks käsitleda ja milliseid mitte. Me tahame:
-
-Tuua esile mustrid, mis näitavad, kes on tõenäoliselt laenuvõtjateks, kellel on suur risk maksejõuetuse või tagasimaksmise probleemide tekkeks. Selle eesmärgi täitmiseks tuleb analüüsida andmete kaudu laenuvõtjate sissetulekuid, makseajaloo ajalugu ja muid rahalisi näitajaid.
-
-Kohandada mudel, mis suudab ennustada täpselt, millised taotlused ei ole kvalifitseeritud laenu saama, et neid ei peaks käsitsi läbi vaatama. See aitab säästa aega ja vähendada inimliku vea tõenäosust.
-
-Parandada otsuste täpsust ja kiirust, kasutades olemasolevaid andmeid, et tuvastada laenuvõtjate sobivus kiiresti ja objektiivselt.
-
-Optimeerida pangandussektori laenuandmise protsessi, et vähendada kulusid ja ajakulu laenutaotluste hindamisel, pakkudes samal ajal täpset ja õiglast teenust klientidele.
-### Data-mining success criteria
-Data-mining edu määratlus sõltub mitmest tegurist, mille alusel hindame, kas meie mudel suudab saavutada seatud eesmärgid ja pakkuda väärtust. Mõned edu kriteeriumid on järgmised:
-
-Täpsus (Accuracy): Mudel peab olema piisavalt täpne, et vähendada vale-negatiivide ja vale-positiivide arvu. Vale-negatiivide arv peab olema minimaalne, kuna see tähendab, et laenu taotleja, kellel on õigus laenu saada, jääb selleks ilma. Vale-positiivide arv peab olema samuti kontrollitud, et mitte põhjustada liigset töökoormust ja manuaalset hindamist, mis on seotud valede otsustega. Täpsuse määramine peab olema tasakaalustatud, et mitte vähendada mudeli usaldusväärsust.
-
-Kõrge täpsusega riskihindamine: Mudel peaks suutma täpselt ennustada laenuvõtjate maksejõuetuse riski, tuvastades need taotlejad, kellel on suurem tõenäosus mitte tagastada laenu. See tagab, et pank saab vältida kahjulikke laene ja minimeerida rahalisi kaotusi.
-
-Kiirus ja efektiivsus: Mudeli töökiirus on samuti oluline. Kui mudel suudab kiiresti ja tõhusalt analüüsida suurt andmekogumit, siis suudame pakkuda kiiremaid laenuotsuseid klientidele ning säästa pankade tööaega.
-
-Vähenenud manuaalne töö: Suurenenud automatiseerimine peaks viima töömahu vähenemiseni, sest need taotlused, mis ei ole kvalifitseeritud laenu saama, tuvastatakse automaatselt ja neid ei pea enam käsitsi hindama. Kui süsteem suudab filtreerida välja suurima osa mittekvalifitseeritud taotlustest, on pankadel võimalus keskenduda ainult neile, kes on tõepoolest tõenäoliselt laenu saama.
-
-Mudel peab olema skaleeritav ja paindlik: Mudel ei tohi olla ainult hetkeline lahendus, vaid peab olema paindlik ja kohandatav, et saaks arvestada uute andmete või süsteemimuudatustega. Lisaks peab mudel olema piisavalt skaleeritav, et seda saaks rakendada erinevates pankades ja finantsasutustes.
-
-Tulemuste hindamine ja tagasiside: Mudeli edukust tuleb pidevalt jälgida ja hinnata, kasutades tagasiside süsteemi, kus õigesti tehtud ennustused kinnitatakse ja eksimused analüüsitakse, et mudelit pidevalt täiustada.
 
 
 
