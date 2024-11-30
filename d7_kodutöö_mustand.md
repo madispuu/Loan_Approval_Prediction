@@ -60,18 +60,26 @@ cb_person_cred_hist_length: Length of the individual’s credit history, categor
 loan_status: with values representing whether the loan status approval( binary values)
 The dataset is a about loan applications, including personal, financial, and loan details. It's likely used for predicting whether a person will default on a loan, making it a binary classification problem. The goal is to figure out which applicants are at higher risk of not paying back their loans based on their age, income, employment, loan purpose, credit history, and other related information.
 
-```
-```
+
 # Task4
-1) Andmete analüüsimine / Iga veeru kohta leida infot, mis kõige rohkem mõjutab. Madis ja Rando (~2h)
-2) Decision tree - Madis (~4h)
-3) Random Forest - Rando (~4h)
-4) Neural Network - Madis ja Rando (5-6h)
-5) Võrdleme mudeleid - Madis ja Rando (~2h)
-6) ROC graafik (FN ja TN) - Madis and Rando (~2h)
-7) Plakati tegemine - Madis ja Rando (~3h)
+1) Andmete analüüsimine: Saada andmetest ülevaade, uurida iga veergu ning määrata kindlaks kõige mõjukamad omadused. [Madis ja Rando (~2h)]
+2) Decision tree: - [Madis (~4h)]
+3) Random Forest: - [Rando (~4h)]
+4) Neural Network: - [Madis ja Rando (5-6h)]
+5) Võrdleme mudeleid - [Madis ja Rando (~2h)]
+6) ROC graafik (FN ja TN): Luua ROC graafik, kus on kujutatud vale negatiivsed (FN) ja tõelised negatiivsed (TN), et hinnata mudelid. - [Madis and Rando (~2h)]
+7) Plakati tegemine: Kokkuvõtte tegemine projekti protsessist ja tulemustest. - [Madis ja Rando (~3h)]
 
-methods: Decision tree, Random Forest, Neural Network, ROC graafik (FN ja TN)
-Tools: Jupyter Notebook, Python, Github, Discord, Kaggle
+Meetodid:
+Decision tree:
+Random Forest:
+Neural Network:
+ROC graafik (FN ja TN): Vale negatiivsete ja tõeliste negatiivsete analüüsiks.
 
-```
+Tööriistad:
+Jupyter Notebook: Koodi ja andmete uurimiseks.
+Python: Programmeerimis keel, mida kasutades oma tööd teeme.
+Github: Töökoht, kus hoiame andmeid projekti jaoks.
+Discord ja Messenger: Suhtlus keskkonnad, mida kasutame, et infot jagada või arutada.
+Kaggle: Lisandmete ja ressursside leidmiseks.
+
