@@ -62,5 +62,16 @@ The dataset is a about loan applications, including personal, financial, and loa
 
 ```
 ```
-Task4
+# Task4
+1) Andmete analüüsimine / Iga veeru kohta leida infot, mis kõige rohkem mõjutab. Madis ja Rando (~2h)
+2) Decision tree - Madis (~4h)
+3) Random Forest - Rando (~4h)
+4) Neural Network - Madis ja Rando (5-6h)
+5) Võrdleme mudeleid - Madis ja Rando (~2h)
+6) ROC graafik (FN ja TN) - Madis and Rando (~2h)
+7) Plakati tegemine - Madis ja Rando (~3h)
+
+methods: Decision tree, Random Forest, Neural Network, ROC graafik (FN ja TN)
+Tools: Jupyter Notebook, Python, Github, Discord, Kaggle
+
 ```
