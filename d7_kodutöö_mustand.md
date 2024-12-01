@@ -39,12 +39,20 @@ Täpsus (Accuracy): Mudel peab olema piisavalt täpne, et vähendada vale-negati
 
 
 
-```
-Task3 - Data understanding
+
+# Task3 - Data understanding
 (ns infoks)(keegi oli postitanud kaggelisse)
 
-Descriptions for the column names based on the data provided:
+Andmete kogumine
+Andmete nõuete määramine: Analüüsi jaoks vajalikud andmed peavad kajastama laenutaotlejate isikuandmeid, finantsolukorda ja laenuomadusi. Vajalikud väljad peavad andma ulatusliku ülevaate iga taotleja taustast ja laenuga seotud andmetest. Eesmärk on analüüsida mustreid, mis on seotud laenude heakskiidu ja maksehäiretega, lähtudes taotlejate profiilidest.
 
+Kontrollige andmete saadavust:
+Antud andmestik sisaldab mitmeid üksikasju, mis seonduvad laenutaotlejate isikuomaduste ja laenutingimustega. Andmestik on kinnitatud kergesti kergendamiseks ja sisaldab piisavalt andmeid, et analüüsida taotlejate omaduste ja laenu tulemuslikkuse seoseid.
+
+Valikukriteeriumide määramine:
+Analüüsi valikukriteeriumid hõlmavad selliste andmete hindamist, mis pakuvad piisavat andmekogust tähenduslike järelduste tegemiseks. Eesmärk on hinnata laenutaotlejaid, kes on esitanud laenutaotlusi erinevate summade, intressimäärade ja staatustega, samuti hinnata erinevatest sissetulekutasemetest ja krediidiajaloo pikkusest lähtuvaid mustreid. 
+
+Descriptions for the column names based on the data provided
 id: Unique identifier for each record.
 person_age: Age of the individual, categorized into ranges.
 person_income: Income of the individual, categorized into income ranges.
@@ -58,9 +66,37 @@ loan_percent_income: Percentage of the individual’s income that the loan repre
 cb_person_default_on_file: Whether the person has a history of loan default, with values 'true' or 'false'.
 cb_person_cred_hist_length: Length of the individual’s credit history, categorized into ranges.
 loan_status: with values representing whether the loan status approval( binary values)
+
+Veergude kirjeldused
+
+id: Unikaalne identifikaator iga kirje jaoks.
+person_age: Isiku vanus, kategooriline jaotamine vanusevahemikeks.
+person_income: Isiku sissetulek, kategooriline jaotamine sissetulekuvahemikeks.
+person_home_ownership: Kodu omamise seisund, mis hõlmab kategooriaid nagu 'RENT', 'MORTGAGE' jne.
+person_emp_length: Isiku tööhõive pikkus, kategooriline jaotamine aastate põhjal.
+loan_intent: Laenu eesmärk, kategooriad nagu 'HARIDUS', 'MEDITSIIN' jne.
+loan_grade: Laenu krediitklass, näiteks 'A', 'B' jne.
+loan_amnt: Laenusumma, kategooriline jaotamine.
+loan_int_rate: Laenu intressimäär, kategooriline jaotamine protsendivahemikeks.
+loan_percent_income: Laenu osa, mis on isiku sissetulekust, kategooriline jaotamine vahemikeks.
+cb_person_default_on_file: Kas isikul on olnud laenu maksehäire ajalugu, väärtused 'true' või 'false'.
+cb_person_cred_hist_length: Isiku krediidiajaloo pikkus, kategooriline jaotamine.
+loan_status: Laenu staatus, väärtused, mis näitavad, kas laen on heaks kiidetud (binaarsed väärtused).
+
+Andmete uurimine
+Andmete uurimise etapis (EDA) tuleks analüüsida andmete jaotust, korrelatsioone ja mustreid. Näiteks:
+Vanus ja laenustaatus: Kontrollida, kas teatud vanuserühmad on rohkem kalduvad maksehäiretele.
+Sissetulek ja laenusumma: Uurida, kas kõrgemad sissetulekud on seotud suuremate laenusummade taotlemisega.
+Kodu omamine ja laenude maksehäired: Hinnata, kas koduomanikud on vähem tõenäoliselt maksehäiretega võrreldes rentnikega.
+Krediidiajalugu ja laenustaatus: Kontrollida, kuidas krediidiajaloo pikkus mõjutab laenu heakskiitmist ja maksehäirete tõenäosust.
+
+Andmete kvaliteedi kontrollimine:
+Kõik vajalikud väljad, nagu loan_status ja person_income, on täidetud, mis tagab andmete täielikkuse. Samuti on kinnitatud, et kõik veergude väärtused vastavad eeldatavale andmetüübile, näiteks on loan_int_rate õigesti määratletud kui numbriline väärtus, tagades andmete kehtivuse. Lisaks on andmed kontrollitud, et need vastaksid reaalsusele ja et kõik vead või anomaaliad oleksid kõrvaldatud, kinnitades andmete täpsuse.
+
 The dataset is a about loan applications, including personal, financial, and loan details. It's likely used for predicting whether a person will default on a loan, making it a binary classification problem. The goal is to figure out which applicants are at higher risk of not paying back their loans based on their age, income, employment, loan purpose, credit history, and other related information.
+```
 
-
+```
 # Task4
 1) Andmete analüüsimine: Saada andmetest ülevaade, uurida iga veergu ning määrata kindlaks kõige mõjukamad omadused. [Madis ja Rando (~2h)]
 2) Decision tree: - [Madis (~4h)]
