@@ -99,7 +99,7 @@ The dataset is a about loan applications, including personal, financial, and loa
 ```
 # Task4
 1) Andmete analüüsimine: Saada andmetest ülevaade, uurida iga veergu ning määrata kindlaks kõige mõjukamad omadused. [Madis ja Rando (~2h)]
-2) Decision tree: - [Madis (~4h)]
+2) Decision tree: - Andmete analüüsimiseks ja peamiste otsustusreeglite tuvastamiseks looge ja treenige otsustuspuu mudel.[Madis (~4h)]
 3) Random Forest: - [Rando (~4h)]
 4) Neural Network: - [Madis ja Rando (5-6h)]
 5) Võrdleme mudeleid - [Madis ja Rando (~2h)]
@@ -115,7 +115,7 @@ ROC graafik (FN ja TN): Vale negatiivsete ja tõeliste negatiivsete analüüsiks
 Tööriistad:
 Jupyter Notebook: Koodi ja andmete uurimiseks.
 Python: Programmeerimis keel, mida kasutades oma tööd teeme.
-Github: Töökoht, kus hoiame andmeid projekti jaoks.
+Github: Töökoht, kus hoiame andmeid projekti jaoks, et saaks nendega koostööd teha.
 Discord ja Messenger: Suhtlus keskkonnad, mida kasutame, et infot jagada või arutada.
 Kaggle: Lisandmete ja ressursside leidmiseks.
 
