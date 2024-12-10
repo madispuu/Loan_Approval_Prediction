@@ -14,5 +14,5 @@ The main parts of the project in this repository are:
 4) [train.csv](https://github.com/madispuu/Loan_Approval_Prediction/blob/main/train.csv) - Dataset from Kaggle, that we use in our work.
 
 # Replicate
-To replicate the same analysis you just have to clone the repository and then open TEAM.ipynb with Jupyter Notebook and run the cells, if they have not been ran allready. Make sure you have Kaggle_submission.png and both test.csv and train.csv in the same folder with the TEAM.ipynb, otherwise the analysis will fail, because the code uses those files to do work.
+To replicate the same analysis you just have to clone the repository and then open TEAM.ipynb with Jupyter Notebook. Then up top open "Kernel" and choose "Restart Kernel and run all cells". Make sure you have Kaggle_submission.png and both test.csv and train.csv in the same folder with the TEAM.ipynb, otherwise the analysis will fail, because the code uses those files to do work.
 
